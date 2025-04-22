@@ -16,7 +16,7 @@
       color: #333;
     }
     header {
-      background: url('https://example.com/hero-image.jpg') center/cover no-repeat;
+      background: url('https://www.spain-holiday.com/r/img/c/fuengirola-coast.jpg') center/cover no-repeat;
       color: white;
       text-align: center;
       padding: 100px 20px;
@@ -98,30 +98,20 @@
   <section id="about">
     <h2>About Us</h2>
     <p>At PVM Travel, we specialize in handpicked villa holidays in beautiful Malaga, Spain. Whether you're looking for a peaceful escape, golf in Mijas, or paddle ball retreats, we’ve got you covered.</p>
+    <img src="https://www.spain-holiday.com/r/img/c/fuengirola-coast.jpg" alt="Fuengirola Coast" style="width:100%; margin-top:20px; border-radius: 8px;">
   </section>
 
   <section id="villas">
     <h2>Featured Villas</h2>
     <div class="villas">
-      <!-- Existing villa cards -->
+      <!-- Villas list will be continued in separate pages and dynamically linked in the future -->
       <div class="villa">
         <img src="https://a0.muscache.com/im/pictures/miso/Hosting-554169641125512235/original/62cb9356-e337-4b11-94d2-c60cd90e9f90.jpeg?im_w=1200" alt="Cozy Villa with Garden and Views">
         <h3>Cozy Villa with Garden and Views</h3>
         <p>Delightful villa with a private garden and lovely views, ideal for small groups or couples seeking tranquility in Malaga.</p>
-        <a href="https://www.airbnb.ie/rooms/554169641125512235?guests=1&adults=1&s=67&unique_share_id=7b9699de-096e-4e0a-b185-d796ec943b70" target="_blank">View on Airbnb</a>
+        <a href="https://www.airbnb.ie/rooms/554169641125512235" target="_blank">View on Airbnb</a>
       </div>
-      <div class="villa">
-        <img src="https://a0.muscache.com/im/pictures/miso/Hosting-554312102286777899/original/e837cda2-324c-4263-b070-5dfafecf5c68.jpeg?im_w=1200" alt="Spacious Hillside Retreat">
-        <h3>Spacious Hillside Retreat</h3>
-        <p>Enjoy panoramic views from this spacious villa nestled in the hills. Perfect for families and groups looking for comfort and style.</p>
-        <a href="https://www.airbnb.ie/rooms/554312102286777899?guests=1&adults=1&s=67&unique_share_id=48e58611-1f6f-4f07-9fa2-43e3158ace1f" target="_blank">View on Airbnb</a>
-      </div>
-      <div class="villa">
-        <img src="https://a0.muscache.com/im/pictures/miso/Hosting-1172335623286972505/original/2e99b924-0666-421e-aea3-4b98cb3b6dd4.jpeg?im_w=1200" alt="Luxury Family Villa with Pool">
-        <h3>Luxury Family Villa with Pool</h3>
-        <p>Modern luxury meets comfort in this family-friendly villa, featuring a private pool and close proximity to Malaga’s best attractions.</p>
-        <a href="https://www.airbnb.ie/rooms/1172335623286972505?guests=1&adults=1&s=67&unique_share_id=a7e402b0-7886-4793-bdaa-c5506f5205b5" target="_blank">View on Airbnb</a>
-      </div>
+      <!-- Additional villa cards will be added in separate pages or loaded via JS -->
     </div>
   </section>
 
@@ -150,7 +140,7 @@
 
   <section id="contact">
     <h2>Contact Us</h2>
-    <p>Email us at <a href="mailto:info@pvmtravel.com">info@pvmtravel.com</a> or use the form below:</p>
+    <p>Email us at <a href="mailto:scct.ie@gmail.com">scct.ie@gmail.com</a> or use the form below:</p>
     <form>
       <label>Name:<br><input type="text" name="name"></label><br><br>
       <label>Email:<br><input type="email" name="email"></label><br><br>
@@ -160,6 +150,11 @@
   </section>
 
   <footer>
+    <p>&copy; 2025 PVM Travel. All rights reserved.</p>
+  </footer>
+</body>
+</html>
+
     <p>&copy; 2025 PVM Travel. All rights reserved.</p>
   </footer>
 </body>

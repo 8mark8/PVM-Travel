@@ -1,76 +1,45 @@
-<style>
-  body {
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    background-color: #f0f4f8;
-    color: #333;
-    margin: 0;
-    padding: 0;
-  }
-  #villas {
-    padding: 40px 20px;
-    background-color: #e0ecf4;
-    text-align: center;
-  }
-  #villas h2 {
-    font-size: 2.5rem;
-    margin-bottom: 30px;
-    color: #2c3e50;
-  }
-  .villas {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
-    gap: 20px;
-    max-width: 1200px;
-    margin: 0 auto;
-  }
-  .villa {
-    background-color: #ffffff;
-    border-radius: 12px;
-    padding: 20px;
-    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
-    transition: transform 0.2s;
-  }
-  .villa:hover {
-    transform: translateY(-5px);
-  }
-  .villa img {
-    max-width: 100%;
-    border-radius: 8px;
-    margin-bottom: 15px;
-  }
-  .villa h3 {
-    color: #34495e;
-    margin: 10px 0;
-    font-size: 1.3rem;
-  }
-  .villa p {
-    color: #555;
-    font-size: 1rem;
-    margin-bottom: 10px;
-  }
-  .villa a {
-    display: inline-block;
-    padding: 10px 20px;
-    background-color: #3498db;
-    color: white;
-    text-decoration: none;
-    border-radius: 6px;
-    transition: background-color 0.3s;
-  }
-  .villa a:hover {
-    background-color: #2c80b4;
-  }
-</style>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>PVM Travel - Villas in Fuengirola</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>Welcome to PVM Travel</h1>
+    <p>Relaxing villa holidays in Fuengirola, Malaga. Your perfect getaway near the beach, golf, and paddle ball action.</p>
+  </header>
 
-<section id="villas">
-  <h2>Featured Villas</h2>
-  <div class="villas">
-    <!-- Property cards (unchanged, already in document) -->
-    ...
-  </div>
-</section>
+  <section id="bio">
+    <h2>Why Fuengirola?</h2>
+    <p>Fuengirola is one of the Costa del Sol’s most popular destinations, offering beautiful beaches, vibrant nightlife, world-class golf courses, and paddle ball courts just minutes away. With a warm Mediterranean climate and stunning coastal views, it’s the perfect destination for relaxation and adventure. Stay with PVM Travel and experience the best of southern Spain.</p>
+  </section>
 
-    <p>&copy; 2025 PVM Travel. All rights reserved.</p>
-  </footer>
+  <section id="villas">
+    <h2>Featured Villas</h2>
+    <div class="villas">
+      <div class="villa">
+        <img src="https://a0.muscache.com/im/pictures/4b739b50-c84b-4dc1-8d34-7c073bd76c78.jpg" alt="Villa 1">
+        <h3>Villa with Private Pool</h3>
+        <p>Stylish villa with stunning views and a private pool, perfect for your getaway.</p>
+        <a href="villa1.html">View Details</a>
+      </div>
+      <div class="villa">
+        <img src="https://a0.muscache.com/im/pictures/miso/Hosting-650887259559433965/original/7e90b460-5eac-42bb-aabe-7fc0e3d3908c.jpeg" alt="Villa 2">
+        <h3>Modern Family Villa</h3>
+        <p>Bright, airy, and just steps from the coast. Great for family holidays.</p>
+        <a href="villa2.html">View Details</a>
+      </div>
+      <div class="villa">
+        <img src="https://a0.muscache.com/im/pictures/miso/Hosting-554878472725754173/original/fbfb00e1-2085-49e4-a56e-78be71d95604.jpeg" alt="Villa 3">
+        <h3>Hillside Hideaway</h3>
+        <p>Private, peaceful villa with panoramic mountain views near Mijas Golf.</p>
+        <a href="villa3.html">View Details</a>
+      </div>
+    </div>
+  </section>
 </body>
 </html>
+

@@ -12,7 +12,7 @@
       color: #333;
     }
     header {
-      background-image: url('https://images.unsplash.com/photo-1612109710627-7d6a3b8ccf2f?auto=format&fit=crop&w=1920&q=80');
+      background-image: url('/mnt/data/db27ab71-5852-4c89-b9aa-f2437ca089d2.png');
       background-repeat: no-repeat;
       background-position: center;
       background-size: cover;
@@ -115,4 +115,3 @@
   </footer>
 </body>
 </html>
-

@@ -12,7 +12,10 @@
       color: #333;
     }
     header {
-      background: url('https://upload.wikimedia.org/wikipedia/commons/4/42/Fuengirola_beach%2C_Malaga.jpg') no-repeat center center/cover;
+      background-image: url('https://upload.wikimedia.org/wikipedia/commons/thumb/4/42/Fuengirola_beach%2C_Malaga.jpg/1920px-Fuengirola_beach%2C_Malaga.jpg');
+      background-repeat: no-repeat;
+      background-position: center;
+      background-size: cover;
       height: 100vh;
       display: flex;
       flex-direction: column;
@@ -55,4 +58,3 @@
   </header>
 </body>
 </html>
-

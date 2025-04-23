@@ -8,7 +8,7 @@
     body {
       margin: 0;
       font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-      background-color: #ffffff;
+      background-color: #f0f4f8;
       color: #333;
     }
     header {
@@ -40,36 +40,45 @@
       padding: 15px;
       display: flex;
       justify-content: center;
-      gap: 20px;
+      gap: 30px;
+      box-shadow: 0 4px 6px rgba(0,0,0,0.1);
     }
     nav a {
       color: white;
       text-decoration: none;
       font-weight: bold;
       font-size: 1rem;
+      transition: color 0.3s;
     }
     nav a:hover {
-      text-decoration: underline;
+      color: #aad8ff;
     }
     section.hero {
-      padding: 50px 20px;
+      background-color: #ffffff;
+      padding: 60px 20px;
       text-align: center;
+      margin: 30px auto;
+      max-width: 1000px;
+      border-radius: 12px;
+      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
     }
     section.hero h2 {
       font-size: 2.5rem;
       margin-bottom: 20px;
+      color: #003366;
     }
     section.hero p {
       font-size: 1.2rem;
       max-width: 800px;
       margin: 0 auto;
+      line-height: 1.6;
     }
     footer {
       background-color: #003366;
       color: white;
       text-align: center;
       padding: 20px;
-      margin-top: 40px;
+      margin-top: 60px;
     }
   </style>
 </head>
@@ -106,3 +115,4 @@
   </footer>
 </body>
 </html>
+

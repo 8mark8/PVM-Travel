@@ -12,7 +12,7 @@
       color: #333;
     }
     header {
-      background-image: url('https://upload.wikimedia.org/wikipedia/commons/thumb/4/42/Fuengirola_beach%2C_Malaga.jpg/1920px-Fuengirola_beach%2C_Malaga.jpg');
+      background-image: url('https://images.unsplash.com/photo-1612109710627-7d6a3b8ccf2f?auto=format&fit=crop&w=1920&q=80');
       background-repeat: no-repeat;
       background-position: center;
       background-size: cover;
